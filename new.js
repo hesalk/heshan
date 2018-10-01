@@ -4,17 +4,27 @@
 // }
 // var t=0;
 // for (var i = 0; i <= 100; i++) {
-//     if (i<100) {
+//
 //       t += i
+//
+//
 //     }
+//
+// console.log(t);
+// var t=0;
+// for (var i = 1; i < 100;i=i+2) {
+//
+//       t += i
+//
 //
 // }
 // console.log(t);
-var t=0;
-for (var i = 0; i <= 100;i=i+2) {
-    if (i<100) {
-      t += i
-    }
+var x = []
+for (var i = 0; i <= 100; i++) {
+  x.push (i)}
+  console.log(x);
 
-}
-console.log(t);
+
+for (var i = 0; i < 100; i++) {
+  x[i] = x[i] *2;}
+  console.log(x);
