@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+    html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(https://northlink.io/img/pattern.svg  ) center center no-repeat;
+    background-size: cover;
+
+    &:before {
+      content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+  	opacity: .6;
+    }
+  
+
+
+/* body{
+  background-image: url(https://northlink.io/img/pattern.svg);
+  background: linear-gradient(45deg, red, blue) opacity:;
+} */
+    </style>
+    <title></title>
+  </head>
+  <body>
+<div class="bg-img"></div>
+
+  </body>
+</html>
