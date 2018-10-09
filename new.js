@@ -19,12 +19,24 @@
 //
 // }
 // console.log(t);
-var x = []
-for (var i = 0; i <= 100; i++) {
-  x.push (i)}
-  console.log(x);
+// var x = []
+// for (var i = 0; i <= 100; i++) {
+//   x.push (i)}
+//   console.log(x);
+//
+//
+// for (var i = 0; i < 100; i++) {
+//   x[i] = x[i] *2;}
+//   console.log(x);
+function isBetween (x, from, to) {
+return x >= from && x <= to;}
 
+console.log(isBetween(100, 0, 20));
 
-for (var i = 0; i < 100; i++) {
-  x[i] = x[i] *2;}
-  console.log(x);
+function range(from, to) {
+  var myArray = [];
+  for (var i = 0; i < 10; i++) {
+    myArray.push(i);
+  }
+  return myArray;}
+  console.log(range(3, 10));
