@@ -1,0 +1,27 @@
+#div1 {
+  width: 100%;
+  background-color: gray;
+  height: 600px;
+  display: none;
+}
+#div2 {
+  width: 100%;
+  background-color: gray;
+  height: 600px;
+  display: none;
+}
+#div3 {
+  width: 100%;
+  background-color: gray;
+  height: 600px;
+  display: none;
+}
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: pink;
+  padding: 20px;
+}
+p {
+  padding: 10px
+}
