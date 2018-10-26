@@ -1,0 +1,140 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+/* dl, dt, dd, ol, ul, li, */
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header{width: 100%;height: 300px;background-color: #d3d3d3}
+.footer{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 100%;height: 150px;background-color: #d3d3d3}
+.main{width: 70%;background-color: #939393;height: 300px;position: relative;left:15%}
+.title{ position: relative;
+
+    top: 35%;
+    text-align: center;
+    color: #9B111E;
+    font-size: 50px;}
+.menu{
+	background-color: #333;
+	display: flex;
+	position: relative;
+	top:63%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  height:60px;
+  font-size: 25px
+}
+.menu a {
+padding: 10px	;color: #ffffff;text-align: center;}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none; */
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;}
+
+		.flex-container {
+		  display: flex;
+			flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+		  height: auto;
+			padding: 50px 250px 50px 250px;
+		  		}
+p{width: 400px;padding: 10px}
+img {width: 300px}
+
+table.greyGridTable {
+  border: 2px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.greyGridTable td, table.greyGridTable th {
+  border: 1px solid #FFFFFF;
+  padding: 10px 	4px;
+}
+table.greyGridTable tbody td {
+  font-size: 18px;
+}
+table.greyGridTable td:nth-child(even) {
+  background: #EBEBEB;
+}
+table.greyGridTable thead {
+  background: #FFFFFF;
+  border-bottom: 4px solid #333333;
+}
+table.greyGridTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  border-left: 2px solid #333333;
+}
+table.greyGridTable thead th:first-child {
+  border-left: none;
+}
+
+table.greyGridTable tfoot td {
+  font-size: 14px;
+}
+ul {font-size: 25px;}
+li {font-size: 25px;}
+form {font-size: 25px;padding:4px}

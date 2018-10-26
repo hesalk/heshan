@@ -1,0 +1,45 @@
+body{width: 920px;
+margin: auto;}
+header{
+  width: 100%;
+  background-color: blue;
+  height: 300px;
+  position: relative;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+}
+.side{
+  flex:30%;
+  background-color: gray;
+  height: 400px;
+  max-width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.main{
+  flex: 70%;
+  background-color:#ffffff;
+  height: 400px;
+  max-width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  padding: 20px;
+  }
+.headtxt{
+  position: absolute;
+  top: 64px;
+}
+.foottxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green
+}

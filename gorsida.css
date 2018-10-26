@@ -1,0 +1,29 @@
+.cont{
+  position: relative;
+  height: 375px;
+  background-image: linear-gradient(306deg, rgba(239,0,255,1) 0%, rgba(203,164,204,0.4458158263305322) 50%, rgba(5,249,90,1) 100%),
+  url(345794518969875.jpg);
+  background-repeat: no-repeat,no-repeat;
+  background-position: center top,center top;
+  background-size: 800px 375px, 800px 375px;
+  transform: scale(1);
+
+  }
+
+.seccont{
+  position: absolute;
+  height: 375px;
+  width: 800px;
+  po
+
+}
+
+.lilimg{
+width: 100px;
+height: 100px;
+position: absolute;
+top: 30px;
+left: 600px;
+
+
+}
